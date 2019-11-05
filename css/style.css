@@ -146,6 +146,8 @@ body {
 .footer {
     height: 80px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background: #D12A2A;
     border-radius: 20px;
     border: solid;
