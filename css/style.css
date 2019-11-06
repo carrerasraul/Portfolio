@@ -221,6 +221,19 @@ body {
     display: none;
 }
 
+.screenshotmodal {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid;
+}
+
+.modaltech {
+    height: 25px;
+    width: 25px;
+}
+
 .bg-modal {
     width: 100%;
     height: 100%;
@@ -234,11 +247,14 @@ body {
 }
 
 .modal-content {
+    background-color: #D12A2A;
+    font-family: 'Rationale';
+    font-size: 16px;
     width: 500px;
     height: 300px;
-    background-color: white;
     border-radius: 5px;
     position: relative;
+    overflow: auto;
 }
 
 .close {
@@ -284,10 +300,14 @@ body {
     .quizScreen2:hover {
         cursor: pointer;
     }
-    body {
+    main {
         padding-left: 300px;
         padding-right: 300px;
     }
+    /*body {
+        padding-left: 300px;
+        padding-right: 300px;
+    }*/
     .footer {
         width: 100%;
     }
