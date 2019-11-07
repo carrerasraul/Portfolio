@@ -11,7 +11,6 @@
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-151587126-1');
     </script>
 
@@ -23,17 +22,20 @@
     <link href="https://fonts.googleapis.com/css?family=Rationale&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
     <header class="header">
         <div>
-            <h1 class="name">Raul Carreras</h1>
+            <a href="index.html">
+                <h1 class="name">Raul Carreras</h1>
+            </a>
         </div>
 
         <nav class="navbar">
             <ul class="menu">
-                <button class="navButtons">Projects</button>
-                <button class="navButtons">About</button>
-                <button class="navButtons">Contact</button>
+                <!--        <li class="navButtons"><a>Projects</a></li>  -->
+                <li class="navButtons"><a href="#about" id="aboutbtn">About</a></li>
+                <li class="navButtons"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +43,7 @@
     <main>
 
         <div class="rightArrow">
-            <img class="arrowRight" src="./icons/Arrow2.png" alt="arrowRight">
+            <img class="arrowRight" src="https://i.imgur.com/onTVmZO.png" alt="arrowRight">
         </div>
 
         <div class="headline">
@@ -63,14 +65,10 @@
                 <img class="quizApp" src="https://i.imgur.com/oimxTAO.png" alt="quizScreenshot">
             </button>
 
-            <button class="quizScreen2">
-                <img class="quizApp1" src="https://i.imgur.com/VZ8u6v9.png" alt="quizScreenshot1">
-            </button>
-
         </div>
 
         <div>
-            <section class="aboutMe">About Me</section>
+            <section class="aboutMe" id="about">About Me</section>
             <p class="bio">Born and raised in the DM <span class="virginia">[V]</span>, Raul is a recent graduate from the Thinkful Engineering Flex program. Being the problem solver he's always been, he will combine his extensive real world experience with his new
                 found passion for web design to bring you and your business a fully functional and visually pleasing platform. When Raul isn't busy making the internet a better looking place, you can find him traversing hiking trails with his dog Bogart
                 or exploring the area with his skateboard. As an avid dog lover, he also spends his down time caring for dogs.
@@ -126,7 +124,7 @@
 <div class="bg-modal">
     <div class="modal-content">
         <div class="close">+</div>
-        <h1>QUIZ APP!</h1>
+        <h1 class="modaltitle">QUIZ APP!</h1>
 
         <section>
             <img class="screenshotmodal" src="https://i.imgur.com/MQUjZ0u.png" alt="screenshot">
