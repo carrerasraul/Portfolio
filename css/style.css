@@ -298,6 +298,10 @@ a {
 }
 
 @media screen and (min-width: 700px) {
+    a {
+        text-decoration: none;
+        color: black;
+    }
     .name {
         display: flex;
         border: solid;
