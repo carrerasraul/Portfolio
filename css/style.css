@@ -398,6 +398,7 @@ a {
     }
     .modaltitle {
         display: flex;
+        font-size: 32px;
         justify-content: center;
         align-content: center;
     }
