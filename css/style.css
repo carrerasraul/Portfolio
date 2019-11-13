@@ -4,6 +4,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -13,7 +14,7 @@ a {
     justify-content: center;
     background-color: #D12A2A;
     width: 100%;
-    height: 161px;
+    height: 100px;
     left: 0px;
     top: 161px;
     border-radius: 20px;
@@ -21,7 +22,8 @@ a {
 }
 
 .name {
-    border: solid;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 34px;
     align-items: center;
     color: black;
     text-decoration: none;
@@ -41,6 +43,8 @@ a {
 
 .myName {
     text-align: center;
+    line-height: 2em;
+    font-family: 'Special Elite', cursive;
 }
 
 .rightArrow {
@@ -75,11 +79,10 @@ a {
 }
 
 .projects {
-    font-family: 'Rationale';
+    font-family: 'Vast Shadow', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
     text-align: center;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
@@ -104,7 +107,7 @@ a {
 }
 
 .contact {
-    font-family: 'Rationale';
+    font-family: 'Vast Shadow', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -130,7 +133,8 @@ a {
 }
 
 .contactlist {
-    font-family: 'Rationale';
+    font-family: 'Special Elite', cursive;
+    color: #0C120C;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -138,7 +142,7 @@ a {
 }
 
 .aboutMe {
-    font-family: 'Rationale';
+    font-family: 'Vast Shadow', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -150,9 +154,9 @@ a {
 
 .bio {
     text-align: center;
+    line-height: 2em;
+    font-family: 'Special Elite', cursive;
     padding: 5px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     background: #C4C4C4;
     border: 1px solid #000000;
@@ -228,13 +232,8 @@ a {
     width: 45px;
 }
 
-.technology {
-    display: none;
-    justify-content: space-around;
-}
-
 .copyright {
-    font-family: 'Rationale';
+    font-family: 'Special Elite', cursive;
     font-weight: normal;
     text-align: center;
     font-size: 12px;
@@ -278,14 +277,46 @@ a {
 
 .modal-content {
     background-color: #D12A2A;
-    font-family: 'Rationale';
     font-size: 16px;
     width: 75%;
     height: 75%;
+    padding: 5px;
     margin: 20% auto;
     border-radius: 5px;
     position: relative;
     overflow: auto;
+}
+
+.modaltitle {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.modalLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalLink {
+    font-family: 'Special Elite', cursive;
+}
+
+.description {
+    font-family: 'Vast Shadow', cursive;
+}
+
+.quizDesciption {
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5em;
+}
+
+.quizTechnologies {
+    font-family: 'Vast Shadow', cursive;
 }
 
 .close {
@@ -304,7 +335,6 @@ a {
     }
     .name {
         display: flex;
-        border: solid;
         margin-left: 20px;
     }
     .navbar {
@@ -314,12 +344,11 @@ a {
     }
     .menu {
         display: flex;
-        font-family: 'Rationale';
         list-style-type: none;
         justify-content: space-evenly;
     }
     .navButtons {
-        font-family: 'Rationale';
+        font-family: 'Vast Shadow', cursive;
         border: solid;
         border-radius: 10px;
         background-color: #C4C4C4;
@@ -348,10 +377,6 @@ a {
         padding-left: 300px;
         padding-right: 300px;
     }
-    /*body {
-        padding-left: 300px;
-        padding-right: 300px;
-    }*/
     .footer {
         width: 100%;
     }
@@ -364,37 +389,57 @@ a {
         display: none;
     }
     .copyright2 {
-        font-family: 'Rationale';
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 28px;
+        font-family: 'Special Elite', cursive;
+        font-size: 18px;
         display: flex;
+        justify-content: center;
         color: #000000;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
     }
-    .technology {
+    .modaltitle {
         display: flex;
-        flex-direction: row;
-    }
-    .one,
-    .two,
-    .three,
-    .four {
-        height: 45px;
-        width: 45px;
-        display: flex;
-        justify-content: left;
-        align-items: flex-start
+        justify-content: center;
+        align-content: center;
     }
     .modal-content {
         background-color: #D12A2A;
-        font-family: 'Rationale';
         font-size: 16px;
-        width: 50%;
-        height: 50%;
-        margin: 20% auto;
+        width: 75%;
+        height: 75%;
+        padding: 10px;
         border-radius: 5px;
         position: relative;
         overflow: auto;
+    }
+    .screenshotSection {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .screenshotmodal {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        max-width: 65%;
+        max-height: 65%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: solid;
+    }
+    .quizDesciption {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .modalLinks {
+        display: flex;
+        line-height: 1.5em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .modalLink:hover {
+        color: #FED766
     }
 }
