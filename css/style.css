@@ -338,7 +338,7 @@ a {
     cursor: pointer;
 }
 
-@media screen and (min-width:400px) and (min-width:900px) {
+@media screen and (min-width:480px) and (min-width:900px) {
     a {
         text-decoration: none;
         color: black;
