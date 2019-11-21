@@ -181,7 +181,7 @@ a {
     color: #D12A2A;
 }
 
-.footer {
+.footer1 {
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -400,7 +400,7 @@ a {
         padding-left: 300px;
         padding-right: 300px;
     }
-    .footer {
+    .footer1 {
         width: 100%;
     }
     .button1,
