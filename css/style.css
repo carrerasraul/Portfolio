@@ -479,4 +479,8 @@ a {
     .modalLink:hover {
         color: #FED766
     }
+    .link {
+        display: none;
+    }
+
 }
