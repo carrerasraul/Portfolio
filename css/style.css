@@ -166,7 +166,7 @@ a {
     line-height: 2em;
     font-family: 'Special Elite', cursive;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     background: #C4C4C4;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -322,6 +322,7 @@ a {
 
 .quizDesciption {
     font-family: 'Special Elite', cursive;
+    font-size: 16px;
     line-height: 2em;
 }
 
@@ -403,11 +404,6 @@ a {
     .bottom {
         width: 100%;
     }
-    .button1,
-    .button2,
-    .button3 {
-        display: none;
-    }
     .copyright {
         display: none;
     }
@@ -424,7 +420,7 @@ a {
         line-height: 2em;
         font-family: 'Special Elite', cursive;
         padding: 5px;
-        font-size: 14px;
+        font-size: 16px;
         background: #C4C4C4;
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -468,6 +464,10 @@ a {
         display: flex;
         justify-content: center;
         align-content: center;
+        font-size: 16px;
+    }
+    .link {
+        display: none;
     }
     .modalLinks {
         display: flex;
@@ -479,8 +479,4 @@ a {
     .modalLink:hover {
         color: #FED766
     }
-    .link {
-        display: none;
-    }
-
 }
