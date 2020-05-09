@@ -173,13 +173,18 @@
 
 .portfolioButton {
   border-radius: 3px;
-  background-color: gray;
+  background-color: black;
   color: white;
   margin: 5px;
   padding: 5px;
   border: none;
-  box-shadow: 5px 5px black;
   font-size: 1.25rem;
+}
+
+.portfolioButton:hover {
+  background-color: #4e4e4e;
+  box-shadow: 4px 4px black;
+  transform: translate(-1px, -1px);
 }
 
 .builtWithContainer {
@@ -190,9 +195,8 @@
 
 .builtWith {
   font-size: 1rem;
-  background-color: gray;
+  background-color: black;
   border: 1px solid black;
-  box-shadow: 3px 3px black;
   padding: 5px;
   margin: 5px;
   color: white;
@@ -200,7 +204,7 @@
 }
 
 .builtWith:hover {
-  background-color: #ff4500;
+  background-color: #4e4e4e;
   box-shadow: 4px 4px black;
   transform: translate(-1px, -1px);
 }
