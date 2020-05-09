@@ -12,7 +12,7 @@
   background-color: #1c1f24;
 }
 
-.purpleBG {
+.redBG {
   background-color: #a31621;
 }
 
@@ -173,7 +173,7 @@
 
 .portfolioButton {
   border-radius: 3px;
-  background-color: red;
+  background-color: gray;
   color: white;
   margin: 5px;
   padding: 5px;
@@ -190,7 +190,7 @@
 
 .builtWith {
   font-size: 1rem;
-  background-color: orangered;
+  background-color: gray;
   border: 1px solid black;
   box-shadow: 3px 3px black;
   padding: 5px;
