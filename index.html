@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Raul Carreras - Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta
+      name="msapplication-square70x70logo"
+      content="favicon/mstile-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="favicon/mstile-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="favicon/mstile-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="favicon/mstile-310x310.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="fullWidth darkBG">
+        <header>
+          <h1>Raul Carreras</h1>
+          <img src="img/menu.svg" id="menu" alt="Menu Icon" />
+          <nav>
+            <ul>
+              <li class="topNavItem"><a href="#portfolio">Portfolio</a></li>
+              <li class="topNavItem"><a href="#aboutMe">About</a></li>
+              <li class="topNavItem">
+                <a href="mailto:raul.e.carreras@gmail.com">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="itsMe">
+        <div class="itsMeInner">
+          <h2>¡Hola!</h2>
+          <p>
+            My name is Raul and I'm a web developer! Let's link and build!
+          </p>
+          <div class="itsMeLinksContainer">
+            <a href="https://github.com/carrerasraul" target="_blank"
+              ><img src="img/link_github.png" alt="Github Icon"
+            /></a>
+            <a href="https://www.linkedin.com/in/raul-carreras/" target="_blank"
+              ><img src="img/link_linkedin.png" alt="LinkedIn Icon"
+            /></a>
+            <a href="mailto:raul.e.carreras@gmail.com"
+              ><img src="img/link_email.png" alt="Email Icon"
+            /></a>
+          </div>
+        </div>
+        <div class="itsMeInner">
+          <img src="img/Raul.png" id="me" alt="Raul" />
+        </div>
+      </div>
+      <div class="experience">
+        <a href="#technology">I have experience working with</a>
+        <a href="#technology"><img src="img/down.png" alt="Down Arrow" /></a>
+      </div>
+    </div>
+    <main>
+      <section class="fullWidth" id="technology">
+        <div class="wrapper center padding">
+          <span class="technology">HTML</span>
+          <span class="technology">CSS</span>
+          <span class="technology">JavaScript</span>
+          <span class="technology">jQuery</span>
+          <span class="technology">React</span>
+          <span class="technology">Node.js</span>
+          <span class="technology">Contenful</span>
+          <span class="technology">MySQL</span>
+        </div>
+      </section>
+      <section class="fullWidth purpleBG" id="portfolio">
+        <div class="wrapper varela whiteText paddingBottom">
+          <div class="paddingHeader"><h2>Recent Projects</h2></div>
+          <div class="portfolio" id="portfolioDiv">
+            <div class="portfolioArrow">
+              <img src="img/left.png" id="portfolioLeftArrow" />
+            </div>
+            <div class="portfolioInner">
+              <div class="portfolioLeft">
+                <div class="portfolioSiteImg" id="portfolioImg"></div>
+              </div>
+              <div class="portfolioRight">
+                <div id="portfolioInfoContainer">
+                  <h2 id="portfolioTitle"></h2>
+                  <p id="portfolioDescription"></p>
+                  <h2 id="builtWith">Built With</h2>
+                  <div class="builtWithContainer" id="portfolioBuiltWith"></div>
+                </div>
+                <div id="portfolioButtonContainer"></div>
+              </div>
+            </div>
+            <div class="portfolioArrow">
+              <img src="img/right.png" id="portfolioRightArrow" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fullWidth offWhiteBG" id="aboutMe">
+        <div class="wrapper varela paddingBottom">
+          <div class="paddingHeader"><h2>About Me</h2></div>
+          <div class="aboutMeContainer">
+            <div class="aboutMeImg">
+              <img src="img/computer man.png" alt="Computer-Man" />
+            </div>
+            <div class="aboutMeText">
+              <p>
+                Born and raised in Virginia, Raul is a recent graduate from the
+                Thinkful Engineering Flex program. Being the problem solver he's
+                always been, he will combine his extensive real world experience
+                with his new found passion for web design to bring you and your
+                business a fully functional and visually pleasing platform. When
+                Raul isn't busy making the internet a better looking place, you
+                can find him traversing hiking trails with his dog Bogart or
+                exploring the area with his skateboard. As an avid dog lover, he
+                also spends his down time caring for dogs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="fullWidth darkBG whiteText varela">
+      <div class="footerWrapper">
+        <div class="footerTop">
+          <div class="footerDivider" id="siteMenu">
+            <h3>Site Menu</h3>
+            <ul>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#aboutMe">About</a></li>
+              <li><a href="mailto:raul.e.carreras@gmail.com">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footerDivider">
+            <h3>Find Me</h3>
+            <ul>
+              <li>
+                <a href="https://github.com/carrerasraul" target="_blank"
+                  >Github</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/raul-carreras/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerDivider">
+            <h3>Contact Me</h3>
+            <ul>
+              <li>
+                <a href="mailto:raul.e.carreras@gmail.com"
+                  >raul.e.carreras@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">Copyright &copy; 2020 Raul Carreras</div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
