@@ -1,14 +1,14 @@
 const portfolio = {
   companies: [
     {
-      title: 'Oh, so you skate?',
-      img: 'img/quiz.png',
-      url: 'https://quiz-app-mess-around--carrerasraul.repl.co/',
+      title: 'DevConnector',
+      img: 'img/Landing.png',
+      url: 'https://dev-connect-client.now.sh/',
       description:
-        'The 2020 Olympics are right around the corner and with Skateboarding making its debut appearance, everyone is hoping on the bandwagon. You cant swing a dead cat without seeing someone mall grabbing their board or seeing a "Thrasher" hoodie at every street corner. How are you supposed to decipher the real from the posers? Hand them this quiz and find out right then and there!',
-      builtWith: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Photoshop'],
-      alt: 'Quiz App',
-      repo: 'https://github.com/carrerasraul/Quiz-App',
+        'This is a social media platform for developers to network together.',
+      builtWith: ['React', 'Node', 'Redux', 'Postgresql', 'MongoDB'],
+      alt: 'DevConnect',
+      repo: 'https://github.com/carrerasraul/DevConnect-Client',
     },
     {
       title: 'TwoTube',
@@ -21,14 +21,14 @@ const portfolio = {
       repo: 'https://github.com/carrerasraul/TwoTube',
     },
     {
-      title: 'DevConnector',
-      img: 'img/Landing.png',
-      url: 'https://dev-connect-client.now.sh/',
+      title: 'Oh, so you skate?',
+      img: 'img/quiz.png',
+      url: 'https://quiz-app-mess-around--carrerasraul.repl.co/',
       description:
-        'This is a social media platform for developers to network together.',
-      builtWith: ['React', 'Node', 'Redux', 'Postgresql', 'MongoDB'],
-      alt: 'DevConnect',
-      repo: 'https://github.com/carrerasraul/DevConnect-Client',
+        'The 2020 Olympics are right around the corner and with Skateboarding making its debut appearance, everyone is hoping on the bandwagon. You cant swing a dead cat without seeing someone mall grabbing their board or seeing a "Thrasher" hoodie at every street corner. How are you supposed to decipher the real from the posers? Hand them this quiz and find out right then and there!',
+      builtWith: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Photoshop'],
+      alt: 'Quiz App',
+      repo: 'https://github.com/carrerasraul/Quiz-App',
     },
   ],
   counter: 0,
