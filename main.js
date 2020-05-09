@@ -5,7 +5,7 @@ const portfolio = {
       img: 'img/Landing.png',
       url: 'https://dev-connect-client.now.sh/',
       description:
-        'This is a social media platform for developers to network together.',
+        'Welcome to DevConnector! Are you new to the web development field and are trying to expand your professional network? Signup for a free account and share your experience and projects with developers all over the world! Have a new technology that you recently learned about and want to share ideas with others about it? Post to blog and begin conversation with other developers to get to understand coding languages and best practices with veterans in the industry!',
       builtWith: ['React', 'Node', 'Redux', 'Postgresql', 'MongoDB'],
       alt: 'DevConnect',
       repo: 'https://github.com/carrerasraul/DevConnect-Client',
