@@ -12,7 +12,7 @@ const portfolio = {
     },
     {
       title: 'Travel-O',
-      img: 'img/quiz.png',
+      img: 'img/Travel-O-Landing.png',
       url: 'https://travel-o.web.app/',
       description:
         'Welcome to Travel-O! Share your favorite travel destinations, museums, restaurants... ANYTHING! Snap a photo, write a description and provide an address to share your favorite locations with your friends or any users around the world!',
