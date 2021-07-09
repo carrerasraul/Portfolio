@@ -11,6 +11,16 @@ const portfolio = {
       repo: 'https://github.com/carrerasraul/DevConnect-Client',
     },
     {
+      title: 'Travel-O',
+      img: 'img/quiz.png',
+      url: 'https://travel-o.web.app/',
+      description:
+        'Welcome to Travel-O! Share your favorite travel destinations, museums, restaurants... ANYTHING! Snap a photo, write a description and provide an address to share your favorite locations with your friends or any users around the world!',
+      builtWith: ['React', 'Node', 'Postgresql', 'MongoDB'],
+      alt: 'Travel-O',
+      repo: 'https://github.com/carrerasraul/travelo-client',
+    },
+    {
       title: 'TwoTube',
       img: 'img/twotube.png',
       url: 'https://carrerasraul.github.io/TwoTube/',
@@ -19,17 +29,7 @@ const portfolio = {
       builtWith: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Photoshop', 'MySQL'],
       alt: 'Website image for Agent Attendance',
       repo: 'https://github.com/carrerasraul/TwoTube',
-    },
-    {
-      title: 'Oh, so you skate?',
-      img: 'img/quiz.png',
-      url: 'https://quiz-app-mess-around--carrerasraul.repl.co/',
-      description:
-        'The 2020 Olympics are right around the corner and with Skateboarding making its debut appearance, everyone is hoping on the bandwagon. You cant swing a dead cat without seeing someone mall grabbing their board or seeing a "Thrasher" hoodie at every street corner. How are you supposed to decipher the real from the posers? Hand them this quiz and find out right then and there!',
-      builtWith: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Photoshop'],
-      alt: 'Quiz App',
-      repo: 'https://github.com/carrerasraul/Quiz-App',
-    },
+    }
   ],
   counter: 0,
 };
